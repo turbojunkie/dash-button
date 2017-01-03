@@ -18,6 +18,10 @@ The unit tests run with [Jest](https://facebook.github.io/jest/) since it focuse
 
 Manually test the CLI by running `sudo node build/cli.js`.
 
+## Documentation
+
+API documentation is automatically generated using [documentation.js](http://documentation.js.org/). Inline [JSDoc-style comments](http://usejsdoc.org/) are converted to Markdown and committed to Git. Run `npm run docs` to generate new documentation.
+
 ## Publishing
 
 Most contributors don't have to think about publishing since that's the responsibility of the package owners. These instructions are for owners:
